@@ -39,32 +39,7 @@ A Netflix-inspired landing page built with **React** and **Vite** as part of the
 
 
 
-## 📚 What I Learned
 
-Through this project, I practiced:
-
-- Creating reusable React components
-- Passing data with props
-- Managing state using `useState`
-- Rendering lists dynamically with `.map()`
-- Filtering data based on user interaction
-- Handling search input with controlled components
-- Building responsive layouts using CSS Flexbox and Grid
-- Organizing a React project using a scalable folder structure
-
----
-
-## 🎯 Future Improvements
-
-- Add real movie posters
-- Hero banner section
-- Movie details page
-- API integration (TMDB)
-- Dark mode improvements
-- Animations and transitions
-- Deploy the project using Vercel
-
----
 
 ## 👨‍💻 Author
 
