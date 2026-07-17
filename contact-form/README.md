@@ -1,16 +1,41 @@
-# React + Vite
+# Contact Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Contact Form built with **React**, **Vite**, **Tailwind CSS**, **shadcn/ui**, **React Hook Form**, and **React Router**.
 
-Currently, two official plugins are available:
+This project was developed as part of the **DevWeekends Fellowship 2026** React assignments.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive UI built with Tailwind CSS
+- Dark mode support
+- React Hook Form for form handling
+- Form validation
+  - Name is required
+  - Valid email is required
+  - Message must contain at least 10 characters
+- React Router with two pages
+  - Home
+  - Thank You
+- Navigation to the Thank You page after successful form submission
+- Reusable components using shadcn/ui
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- React Hook Form
+- React Router DOM
+- Lucide React
+
+
+---
+
+## Author
+
+**Muhammad Abubakar Baig**
