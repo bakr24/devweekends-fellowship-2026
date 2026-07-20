@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    background:#000;
+}
+
+.search-box{
+  display:flex;
+
+  align-items:center;
+  padding:10px 30px;
+  border-radius: 30px;
+  width: 320px;
+    background:#222;
+}
+
+.search-box input{
+
+    flex:1;
+    border:none;
+    outline:none;
+    background:transparent;
+    color:white;
+    margin-left:10px;
+    font-size:16px;
+}
+
+.search-icon{
+    color:white;
+      font-size: 18px;
+  margin-right: 10px;
+
+}
+.navbar h1{
+    color:red;
+}
+
+.navbar input{
+    padding:10px;
+    border-radius:5px;
+    border:none;
+}
+.logo{
+    height:90px;
+    width:140px;
+   
+}
+
+.layout{
+    display:flex;
+}
+
+.sidebar{
+    width:220px;
+    background:#181818;
+    min-height:100vh;
+    padding:25px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar li{
+    margin:20px 0;
+    cursor:pointer;
+}
+
+.content{
+    flex:1;
+    padding:30px;
+}
+
+.categories{
+    margin-bottom:25px;
+}
+
+.categories button{
+    margin-right:10px;
+    padding:10px 20px;
+    cursor:pointer;
+    border:none;
+    border-radius:20px;
+}
+
+.active{
+    background:red;
+    color:white;
+}
+
+.movie-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+   gap: 15px;
+}
+
+.movie-card{
+  background:#222;
+  border-radius:12px;
+  overflow:hidden;
+  transition:.3s;
+  cursor:pointer;
+  padding-bottom: 20px;
+  width: 230px;
+}
+
+.movie-card:hover{
+  transform:scale(1.05);
+  
+
+}
+
+.movie-card img{
+    width:100%;
+    border-radius:10px;
+    height: 250px;
+
+}
+
+.movie-card h3{
+    margin-top:20px;
+    margin-top: 12px;
+}
+
+.movie-card p{
+    color:#bbb;
+}
+
+.active{
+  background:#E50914;
+  color:white;
+  font-weight:bold;
+
+}
+
+@media(max-width:768px){
+
+    .layout{
+        flex-direction:column;
+    }
+
+    .sidebar{
+        width:100%;
+        min-height:auto;
+    }
+
+}
